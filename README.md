@@ -2,7 +2,7 @@
 
 # MorningBloom — Memory & Wellness Assistant (v1)
 
-MorningBloom is a lightweight, extensible AI asset designed for older adults to support **daily journaling, memory recall, wellness check-ins, and reminders**.
+MorningBloom is a lightweight, extensible AI system designed for older adults to support **daily journaling, memory recall, wellness check-ins, and reminders**.
 
 ## ✨ Highlights
 - Simple **Streamlit** UI (web) with large, accessible controls
