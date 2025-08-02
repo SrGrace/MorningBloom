@@ -4,6 +4,9 @@
 
 MorningBloom is a lightweight, extensible AI system designed for older adults to support **daily journaling, memory recall, wellness check-ins, and reminders**.
 
+## 🎬 Demo 
+![Demo GIF](./demo/MorningBloom_demo.gif)
+
 ## ✨ Highlights
 - Simple **Streamlit** UI (web) with large, accessible controls
 - Local JSON storage for quick prototyping (no DB required)
