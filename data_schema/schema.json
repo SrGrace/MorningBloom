@@ -1,0 +1,23 @@
+{
+  "logs": [{
+    "id": "string-uuid",
+    "user_id": "string",
+    "date": "YYYY-MM-DD",
+    "time": "HH:MM",
+    "mood": "Happy|Okay|Tired|Confused|null",
+    "journal_entry": "string|null",
+    "events": [{
+      "type": "medication|call|meal|other",
+      "time": "HH:MM",
+      "note": "string"
+    }]
+  }],
+  "reminders": [{
+    "id": "string-uuid",
+    "user_id": "string",
+    "task": "string",
+    "date": "YYYY-MM-DD",
+    "time": "HH:MM",
+    "status": "scheduled|done|cancelled"
+  }]
+}
