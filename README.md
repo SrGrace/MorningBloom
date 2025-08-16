@@ -40,7 +40,7 @@ MorningBloom is a lightweight, extensible AI system designed for older adults to
 - `data_schema/` — JSON schema for logs & reminders
 - `governance_config/` — safety policies & evaluation checklist
 - `ui_mockup/` — flows and screen notes
-- `data/` — local JSON storage (created automatically)
+- `data/` — local JSON storage for now (created automatically)
 
 ---
 ## ✅ Current Features (v1)
