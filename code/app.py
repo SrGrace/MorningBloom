@@ -80,7 +80,7 @@ elif section == "Memory Recall":
     query = st.text_input("Ask about recent events (e.g., “Did I take my pills yesterday?”)")
     if st.button("Ask"):
         logs = storage.list_logs(days=7, user_id=user_id)
-        # very simple heuristic: search keywords
+        # very simple heuristic: search keywords, complex logic to implemented in v2
         text = []
         for l in logs:
             line = f"{l['date']} {l['time']} mood={l.get('mood')} notes={l.get('journal_entry','')} events={l.get('events', [])}"
